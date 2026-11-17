@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IEM Kolkata | Campus Fest 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a href="#hero" class="logo"><i>IEM</i>IEM Kolkata</a>
+  <a class="l" href="#now">Happening</a><a class="l" href="#events">Events</a><a class="l" href="#schedule">Schedule</a><a class="l" href="#team">Team</a>
+  <button id="tg" aria-label="Toggle theme">◐</button>
+  <a class="btn" href="#events">Register</a>
+</nav>
+
+<header class="hero" id="hero">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div>
+    <div class="pill">📍 Salt Lake, Kolkata · Campus Fest 2026</div>
+    <div class="col">INSTITUTE OF ENGINEERING AND MANAGEMENT, KOLKATA</div>
+    <h1>Spark the <span>next big thing</span></h1>
+    <p class="s">Hackathons, robotics, music and more. Find your event, grab a seat and show up ready.</p>
+    <div class="row"><a class="btn" href="#events">Explore events</a><a class="btn ghost" href="#schedule">View schedule</a></div>
+    <div class="cd" id="cd"></div>
+    <div class="stats"><div><b data-n="24">0</b><small>Events</small></div><div><b data-n="3500">0</b><small>Students</small></div><div><b data-n="12">0</b><small>Organisers</small></div></div>
+  </div>
+</header>
+
+<div class="tick"><div id="tk"></div></div>
+
+<section id="now" class="rv">
+  <div class="col">Live &amp; upcoming</div>
+  <h2>Happening now &amp; next</h2>
+  <p class="sub">Pick one, register, show up.</p>
+  <div class="grid" id="g1"></div>
+</section>
+
+<section id="events" class="rv">
+  <div class="col">Every kind of event</div>
+  <h2>The full calendar</h2>
+  <p class="sub">Filter by category and grab your spot.</p>
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="g2"></div>
+</section>
+
+<section id="schedule" class="rv">
+  <div class="col">Plan your week</div>
+  <h2>Schedule at a glance</h2>
+  <p class="sub">Placeholder timings, to be confirmed by the organising team.</p>
+  <div class="tl">
+    <div><b>09:00</b> · Opening ceremony &amp; keynote, Main Auditorium</div>
+    <div><b>11:00</b> · HackHive 36 kicks off, Innovation Lab</div>
+    <div><b>14:00</b> · Paper Trail poster sessions, Block C</div>
+    <div><b>16:30</b> · Circuit Clash robotics rounds, Sports Arena</div>
+    <div><b>19:00</b> · Raag &amp; Rhythm cultural night, Open Air Stage</div>
+  </div>
+</section>
+
+<section id="team" class="rv team">
+  <div class="col">The people behind the events</div>
+  <h2>Meet the organisers</h2>
+  <p class="sub">Student coordinators and faculty mentors, one shared goal: make every event worth showing up for.</p>
+  <div class="grid" id="g3"></div>
+</section>
+
+<footer>
+  <h3>INSTITUTE OF ENGINEERING AND MANAGEMENT, KOLKATA</h3>
+  <p>Where students build, present and celebrate together.</p>
+  <p><a class="fl" style="display:inline" href="mailto:events@iem-placeholder.edu">events@iem-placeholder.edu</a></p>
+  <div class="fl"><a href="#events">Events</a><a href="#schedule">Schedule</a><a href="#team">Organisers</a><a href="#events">Register</a></div>
+  <small>© 2026 IEM Kolkata Campus Fest</small>
+</footer>
+<button id="top" aria-label="Back to top">↑</button>
+
+<div class="mod" id="mod"><div class="box">
+  <button class="x" id="cx" aria-label="Close">×</button>
+  <div id="fm">
+    <h3 id="mt">Register</h3><br>
+    <label>Full name</label><input id="n" placeholder="Your name">
+    <label>Email</label><input id="e" type="email" placeholder="you@example.com">
+    <label>College ID</label><input id="i" placeholder="e.g. IEM2026001">
+    <button class="btn" id="sub" style="width:100%">Submit registration</button>
+    <small>Demo only. Data stays in your browser and is not sent anywhere.</small>
+  </div>
+  <div id="ok" style="display:none;text-align:center"><div style="font-size:3rem">🎉</div><h3>You’re registered!</h3><p style="color:var(--mu)">We’ve got your spot. Check your email closer to the event date.</p></div>
+</div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
